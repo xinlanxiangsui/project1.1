@@ -1,0 +1,6 @@
+将以上三个.sql文件导入到oracle客户端中即可自动建表
+
+序列创建：
+create sequence stuId minvalue 1 maxvalue 99999 increment by 1 start with 1;
+create sequence teaId minvalue 1 maxvalue 99999 increment by 1 start with 1;
+create sequence cloId minvalue 1 maxvalue 99999 increment by 1 start with 1;
